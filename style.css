@@ -430,6 +430,7 @@ body
         padding: 0;
         margin-left: 10px;
         height: 100px;
+        width: 200px;
         font-size: 9.5px;
     }
     .section_1>.sec1input>i
@@ -507,7 +508,7 @@ body
     }
     .footer>.btns>button
     {
-        width: 100px;
+        width: 95px;
     }
     .footer>.btns>button>i
     {
@@ -519,7 +520,7 @@ body
     }
     .footer>.icons>i
     {
-        padding:0px;
+        padding-left:0.29px;
         font-size: 11.5px;
  
     }
