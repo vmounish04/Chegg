@@ -1,0 +1,527 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: none;
+}
+body
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+
+}
+
+.head
+{
+    position: sticky;
+    top:0;
+    height: 65px;
+    font-weight:640;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 90px;
+    background-color: #FFFFFF;
+   
+}
+
+.head>img
+{
+    height: 50px;
+    width:150px;
+    object-fit: cover;
+
+}
+
+.head_right
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    
+}
+
+.head_right>p
+{
+    padding: 0px 20px;
+
+}
+.head_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.head_left>button
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0) ;
+    border: none;
+    margin-left:20px;
+
+
+}
+.head_left>p
+{
+    margin-left:20px;
+}
+
+.head_right>button
+{
+    background-color: #FFFFFF;
+    color: black ;
+    border: none;
+}
+.head_right>button>span , .head_left>button>span     /* .head_left, .head_right >button>span */
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:640;
+    font-size: 15px;
+}
+.section_1
+{
+    height: 500px;
+    width:100%;
+    text-align: center;
+    background-color: #F2EFFA;
+    padding-top: 140px;
+    
+
+}
+
+.section_1>h1
+{
+    font-size: 45px;
+    font-weight:850;
+}
+.section_1>p
+{
+    font-size: 25px;
+    font-weight:350;
+    padding-top: 10px;
+}
+
+.sec1input
+{
+    
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width:1050px;
+    border-radius: 10px;
+    margin: 40px auto;
+    background-color: #FBFAFB;
+    padding: 20px;
+    
+}
+
+.sec1input>input
+{
+    border: none;
+    border: 1px solid #F1A762;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 80px;
+    height: 60px;
+    width:800px;
+}
+
+.sec1input>i
+{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+
+}
+
+.section_2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: #FFF6F0;
+}
+.icontext
+{
+    font-weight: 400;
+    height: 200px;
+    width:350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icontext>i
+{
+    font-size: 55px;
+}
+
+.icontext>p
+{
+    
+    font-size: 21px;
+    font-weight: 350;
+    padding-left: 15px;
+}
+
+.section_2>button
+{
+    height: 50px;
+    width: 130px;
+    background-color: #EB7100;
+    color: white;
+    border:none;
+    border-radius:50px;
+    font-weight: bold;
+   
+}
+
+.section_2>button:hover
+{
+    height: 53px;
+    width: 131px;
+    background-color: #EB7100;
+    color: white;
+    border-radius:50px;
+
+}
+
+.section_3
+{
+    margin-top: 80px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+   
+}
+.section_3>img
+{
+    object-fit: cover;
+    height: 400px;
+    width: 500px;
+}
+
+.h2class
+{
+    font-weight: 900;
+    padding: 50px;
+    background-color: #ffffff;
+    height: 400px;
+    width: 600px;
+}
+
+.h2class>h2
+{
+    font-size: 40px;
+}
+
+.section_4
+{
+    background-color: #FFF6F0;
+    text-align: center;
+    height: 230px;
+    margin: 25px;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.section_4>h2
+{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom:20px ;
+
+}
+
+.section_4>p
+{
+    font-weight: 400;
+    font-size:20px ;
+}
+
+.section_4>button
+{
+    margin-top: 17px;
+    height: 50px;
+    width: 130px;
+    background-color: #EB7100;
+    color: white;
+    border:none;
+    border-radius:50px;
+    font-weight: bold;
+
+}
+
+.section_4>button:hover
+{
+    height: 53px;
+    width: 135px;
+    background-color: #EB7100;
+    color: white;
+    border-radius:50px;
+
+}
+.section_5
+{
+    height: 110px;
+    width:1000px;
+    font-size: 12px;
+    margin: 40px 200px;
+}
+
+.section_6
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items:baseline;
+    justify-content: space-evenly;
+    height: 330px;
+    width: 100%;
+    font-size:15px;
+    font-weight: 480;
+    padding: 0px 4.1px;
+}
+.section_6>.text>h2
+{
+    font-size: 20px;
+
+}
+
+.parent1
+{
+    display: flex;
+    align-items:center;
+
+}
+.parent1>.right
+{
+    margin-bottom:25px ;
+}
+.parent1>.left>h2
+{
+    font-size: 20px;
+}
+
+.parent2>.top>h2
+{
+    font-size: 20px;
+}
+.parent2>.bottom
+{
+    margin-top: 20px;
+}
+
+.footer
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    height: 100px;
+    margin:0px 100px;
+}
+.footer>.icons>i
+{
+    padding-left: 25px ;
+    font-size: 22px;
+}
+
+.footer>.btns
+{
+    height:60px ;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.footer>.btns>button
+{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    height: 43px;
+    width: 140px;
+
+}
+
+.footer>.btns>button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.footer>.btns>button>i
+{
+    font-size:25px;
+
+}
+
+.footer>.btns>button>span
+{
+    font-size:17px;
+
+}
+
+@media(max-width:576px)
+{
+    .head
+    {
+        position: sticky;
+        top: 0;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .head>img
+    {
+        object-fit: cover;
+        width: 80px;
+    }
+    .head>.head_left
+    {
+        display: none;
+    }
+    .head>.head_right>p,button
+    {
+        padding:0px 5px;
+        font-size: 13px;
+    }
+    .section_1
+    {
+        width: auto;
+        height: 410px;
+        padding-top:10px;
+
+    }
+    .section_1>h1
+    {
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    .section_1>p
+    {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .section_1>.sec1input
+    {
+        display: flex;
+        justify-content:baseline;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        margin: 8px;
+        margin-top: 45px;
+        height: 150px;
+        
+    }
+    .section_1>.sec1input>input
+    { 
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+        height: 100px;
+        font-size: 9.5px;
+    }
+    .section_1>.sec1input>i
+    { 
+        font-size: 25px;
+    }
+    .section_2
+    {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .section_2>.icontext
+    {
+        height: 120px;
+        padding: 7px;
+    }
+    .section_2>button
+    {
+        margin-bottom: 20px;
+    }
+    .section_3
+    {
+        height: auto;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top:30px ;
+    }
+    .section_3>img
+    {
+        object-fit: cover;
+
+        height: 250px;
+    }
+    .section_3>.h2class
+    {
+        padding: 20px;
+    }
+    .section_3>.h2class>h2
+    {
+        font-size: 30px;
+    }
+    .section_4
+    {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+    .section_4>.h2
+    {
+        font-size: 18px;
+    }
+    .section_4>button
+    {
+        margin-bottom:20px ;
+    }
+    .section_5
+    {
+        margin: 0;
+        margin: 30px;
+        width: auto;
+        height: auto;
+    }
+    .section_6
+    {
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .footer
+    {
+        margin: 0;
+
+    }
+    .footer>.btns>button
+    {
+        width: 100px;
+    }
+    .footer>.btns>button>i
+    {
+        font-size: 15px;
+    }
+    .footer>.btns>button>span
+    {
+        font-size: 11.5px;
+    }
+    .footer>.icons>i
+    {
+        padding:0px;
+        font-size: 11.5px;
+ 
+    }
+
+}
