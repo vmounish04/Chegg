@@ -367,6 +367,18 @@ body
     font-size:17px;
 
 }
+.footer>.icons>.ic-facebook
+{
+    color:blue;
+    
+
+}
+.footer>.icons>.ic-instagram
+{
+    color:red;
+    
+
+}
 
 @media(max-width:576px)
 {
@@ -524,5 +536,6 @@ body
         font-size: 11.5px;
  
     }
+   
 
 }
